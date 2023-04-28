@@ -28,6 +28,10 @@
 
 
 body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
